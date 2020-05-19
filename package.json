@@ -1,0 +1,29 @@
+{
+  "name": "gulp-rollup-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@rollup/plugin-babel": "^5.0.0",
+    "bootstrap": "^4.5.0",
+    "gulp": "^4.0.2",
+    "rollup": "^2.10.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FpRezDev/gulp-rollup-babel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FpRezDev/gulp-rollup-babel/issues"
+  },
+  "homepage": "https://github.com/FpRezDev/gulp-rollup-babel#readme"
+}
