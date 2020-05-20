@@ -1,11 +1,8 @@
-/**
- * Used bootstrap plugins to verify intended compilation
- */
-exports.config = {
-  input: './test/index.js',
+const bootstrapConfig = {
+  input: './test/bootstrap.js',
   external: ['jquery', 'popper.js'],
   output: {
-    file: './test-output/index.js',
+    file: './test-output/bootstrap.js',
     name: 'index',
     format: 'umd',
     sourcemap: true,
@@ -15,3 +12,4 @@ exports.config = {
     }
   }
 };
+exports.bootstrapConfig = bootstrapConfig;
