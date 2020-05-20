@@ -1,7 +1,3 @@
-/**
- * Used bootstrap plugins to verify intended compilation
- */
-
 import Alert from '../node_modules/bootstrap/js/src/alert'
 import Button from '../node_modules/bootstrap/js/src/button'
 import Carousel from '../node_modules/bootstrap/js/src/carousel'
