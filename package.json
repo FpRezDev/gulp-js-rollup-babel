@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "A Simple gulp plugin using rollup and babel.",
   "main": "gulpfile.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
