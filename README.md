@@ -1,6 +1,6 @@
 # gulp-js-rollup-babel
 
-A Simple gulp plugin to build js files on the fly with little setup.
+A Simple gulp plugin to build browsers ready js files on the fly with little setup.
 
 Install
 ========
