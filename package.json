@@ -2,6 +2,12 @@
   "name": "gulp-js-rollup-babel",
   "version": "1.0.2",
   "description": "A Simple gulp plugin to build browsers ready js files on the fly with little setup.",
+  "keywords": [
+    "gulp",
+    "rollup",
+    "babel",
+    "js"
+  ],
   "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.9.6",
