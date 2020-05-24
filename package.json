@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FpRezDev/gulp-rollup-babel.git"
+    "url": "git+https://github.com/FpRezDev/gulp-js-rollup-babel.git"
   },
   "author": "FpRezDev <fprez.developer@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FpRezDev/gulp-rollup-babel/issues"
+    "url": "https://github.com/FpRezDev/gulp-js-rollup-babel/issues"
   },
-  "homepage": "https://github.com/FpRezDev/gulp-rollup-babel#readme"
+  "homepage": "https://github.com/FpRezDev/gulp-js-rollup-babel#readme"
 }
