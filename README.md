@@ -60,10 +60,11 @@ const jsConfig = {
   input: './test/index.js',
   external: ['jquery'],
   output: {
-    file: './test-output/index.js',
+    file: './test-output/index.min.js',
     name: 'index',
     format: 'umd',
     sourcemap: true,
+    minimize: true,
     globals: { 
       jquery: 'jQuery', // Ensure we use jQuery which is always available even in noConflict mode
     }
