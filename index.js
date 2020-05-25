@@ -25,7 +25,7 @@ const build = (config) => {
     })
   ];
 
-  if(config.output.minimize){
+  if(config.minimize){
     plugins.push(uglify({
       sourcemap: config.output.sourcemap
     }));

@@ -59,12 +59,12 @@ const { rollup } = require('gulp-js-rollup-babel');
 const jsConfig = {
   input: './test/index.js',
   external: ['jquery'],
+  minimize: true,
   output: {
     file: './test-output/index.min.js',
     name: 'index',
     format: 'umd',
     sourcemap: true,
-    minimize: true,
     globals: { 
       jquery: 'jQuery', // Ensure we use jQuery which is always available even in noConflict mode
     }
